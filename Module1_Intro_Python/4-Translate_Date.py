@@ -1,5 +1,6 @@
 name = input("¿Cuál es tu nombre? ")
-print("Hola", name, "¡Bienvenido a Python!")
+first_name = input("¿Cuál es tu apellido? ")
+print("Hellow", name.capitalize()+ " " + first_name.capitalize(), "¡Bienvenido a Python!")
 
 adulto = str(input("¿Eres un adulto? (si/no) "))
 r_major = "Tu eres un adulto, puedes acceder! "
